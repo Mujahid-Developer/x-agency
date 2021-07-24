@@ -25,3 +25,15 @@ li{
 .nav-item li a:hover{
     color: rgb(77, 255, 160);
 }
+@media (max-width: 720px) {
+    .nav-item{
+        display: none;
+    }
+    nav{
+        justify-content:center;
+    }
+    a{
+        font-size:50px;
+        font-weight:800;
+    }
+}
