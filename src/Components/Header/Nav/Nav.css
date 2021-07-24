@@ -1,0 +1,27 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    margin: 0 60px;
+}
+.logo{
+    font-size: 25px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+}
+li{
+    list-style: none;
+}
+.nav-item{
+    display: flex ;
+}
+.nav-item li{
+    margin-left: 20px;
+}
+.nav-item li a:hover{
+    color: rgb(77, 255, 160);
+}
