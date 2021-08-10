@@ -5,7 +5,17 @@ footer{
     text-align: center;
     height: 30px;
     background-color: #131313;
+    font-size: 14px;
 }
 footer > a {
     color: rgb(158, 158, 158);
+    font-size: 14px;
+}
+@media (max-width: 720px) {
+    .footer{
+        font-size: 14px;
+    }
+    footer > a {
+        font-size: 14px;
+    }
 }
