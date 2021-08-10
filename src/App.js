@@ -7,6 +7,7 @@ function App() {
     <div>
         <Header/>
         <Services/>
+        <footer>Copyright © 2021 Design By <a href="www.facebook.com/showmujahid">Mujahid</a></footer>
     </div>
   );
 }

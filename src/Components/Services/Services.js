@@ -1,6 +1,7 @@
 import { faGlobe, faMobile, faPencilRuler, faSearch } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
+import Details from '../Details/Details';
 import '../Services/Services.css';
 
 const Services = () => {
@@ -30,6 +31,8 @@ const Services = () => {
             <div className="items">
             {services.map(service => <Service props = {service}></Service>)}
             </div>
+            <h1 className="section-title">About Us</h1>
+            <Details/>
 
         </div>
     );
